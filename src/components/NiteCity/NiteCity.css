@@ -1,0 +1,62 @@
+.nitecity{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+.TEXT{
+    width:100% ;
+    height: 35vh;
+}
+.TEXT h1 {
+    font-size: 60px;
+    text-align: left;
+    margin-top: 50px;
+}
+.text{
+    font-size: 20px;
+    text-align: left;
+}
+.next{
+color: aqua;
+}
+
+.NiteCity_foto{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.foto{
+    width: 480px;
+    height: 190px;
+    background-image: url(../img/Rectangle\ 61.png);
+    clip-path: polygon(16.70% 0.00%,100.00% 0.00%,100.00% 76.39%,83.30% 100%,0.00% 100.00%,0.00% 21.76%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.foto1{
+    width: 480px;
+    height: 190px;
+    margin-top: 30px;
+    background-image: url(../img/Rectangle\ 63.png);
+    clip-path: polygon(16.70% 0.00%,100.00% 0.00%,100.00% 76.39%,83.30% 100%,0.00% 100.00%,0.00% 21.76%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.foto2{
+    width: 650px;
+    height: 410px;
+    background-image: url(../img/Rectangle\ 61.png);
+    clip-path: polygon(16.70% 0.00%,100.00% 0.00%,100.00% 76.39%,83.30% 100%,0.00% 100.00%,0.00% 21.76%);
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}

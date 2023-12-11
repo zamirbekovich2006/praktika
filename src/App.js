@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Header from './components/Header/Header';
+import NiteCity from './components/NiteCity/NiteCity';
+import  SECTION from './components/SECTION/SECTION';
+import SECTION2 from './components/SECTION2/SECTION2';
+import SECTION3 from './components/SECTION3/SECTION3';
+import SMALL from './components/SMALL/SMALL';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header/>
+      <NiteCity/>
+      <SECTION/>
+      <SECTION2/>
+      <SECTION3/>
+      <SMALL/>
     </div>
   );
 }
